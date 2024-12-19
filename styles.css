@@ -298,3 +298,33 @@ span{
 .dropdown-item:hover {
     background-color: #e9dfdf;
 }
+
+.sales-report-btn{
+    background-color: #f0de14;
+    color: #090909;
+    padding: 0.8rem;
+    border-radius: 12rem;
+}
+.sales-report-btn:hover{
+    background-color: #ff5722;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.text-center{
+    color: #fbf9f9;
+}
